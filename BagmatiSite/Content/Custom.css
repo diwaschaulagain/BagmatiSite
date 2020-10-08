@@ -1,0 +1,272 @@
+﻿
+/*main-product section*/
+.main-product-slider {
+    padding: 60px 0;
+    background: #f7f7f7;
+}
+
+.main-product-item {
+    background: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+    .main-product-item h4 {
+        color: #333;
+        font-size: 19px;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .main-product-item p {
+        font-size: 14px;
+        line-height: 22px;
+        color: #777;
+        padding: 5px 0 10px;
+        margin-bottom: 0;
+    }
+
+.main-product-img {
+    background: linear-gradient(-45deg, #ed3138 50%, rgba(255, 255, 255, 0.5) 50%);
+    background: #fff;
+    padding: 15px;
+}
+
+    .main-product-img img {
+        border: 1px solid #eee;
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+.main-product-texts {
+    padding: 0 10px 25px;
+    background: #fff;
+}
+
+.main-product-item:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.4);
+}
+
+.intro-description {
+    text-align: center;
+    margin: 90px 0 60px;
+}
+
+.intro-item img {
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+.theme-button-red {
+    background: #ea3136;
+    border: 2px solid #e85342;
+    color: #fff !important;
+    transition: all 0.4s linear 0s;
+    padding: 6px 12px;
+}
+
+.intro-item {
+    margin-bottom: 30px;
+}
+/*//featured product*/
+.featured-product-section {
+    padding: 60px 0;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+
+
+/*color message above footr*/
+.color-box {
+    padding: 10px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.red-msg {
+    background: #c11717;
+}
+
+.yellow-msg {
+    background: #e7a711;
+}
+
+.green-msg {
+    background: #008f43;
+}
+
+.blue-msg {
+    background: #067dc1;
+}
+
+.main-sidebar .widget ul li a {
+    color: purple;
+    transition: all 0.3s ease-in-out 0s;
+    text-decoration: none;
+    background-color: transparent;
+    list-style: none;
+    margin-left:-12px;
+}
+
+/*header color msg* */
+.color-box-pack {
+    margin-top: 15px;
+}
+
+.color-box-header {
+    text-align: center;
+    color: #2c2f90;
+    font-size: 16px;
+    margin: 3px 0;
+    background: #fff;
+}
+
+.h-box1 {
+    background: #dc422d;
+    color: #fff;
+    font-size: 17px;
+    padding: 15px 5px;
+    font-weight: 400;
+}
+
+.h-box2 {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.h-box4 {
+    padding: 5px;
+    font-style: italic;
+}
+
+
+    /***Widget***/
+    .main-sidebar.widget-area {
+        margin-top: 30px;
+    }
+
+.main-sidebar .widget {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 1px 0 0 #f0f0f2 inset;
+    margin-bottom: 30px;
+}
+
+.main-sidebar .widget_media_image {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.main-sidebar .widget-title {
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.main-sidebar .widget ul {
+    list-style: none;
+}
+
+    .main-sidebar .widget ul li a {
+        color: #777;
+    }
+
+        .main-sidebar .widget ul li a:hover {
+            color: inherit;
+        }
+
+.primary {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-box-content {
+    width: 100%;
+}
+
+.image-box-content {
+    width: 100%;
+}
+div {
+    display: block;
+}
+.image-box-title {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+h3 {
+    padding-bottom: 25px;
+    margin-top: 20px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    display: block;
+}
+
+.main-product-img img {
+    border: 1px solid #eee;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+p {
+    font-size: 17px;
+    line-height: 25px;
+    color: #777;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.img-box {
+    margin-top:20px;
+    text-align: center;
+    border-style: solid;
+  
+    border-color: #ffffff;
+    box-shadow: 10px 10px 5px 10px rgba(0,0,0,0.5);
+}
+
+.para-text {
+    text-align: justify;
+    line-height: 25px;
+    color: #777;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.wrapper .container {
+   max-width: 900px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+@media (max-width: 767px) {
+
+    .para-text p {
+        font-size: 14px;
+    }
+
+}
+
+
+

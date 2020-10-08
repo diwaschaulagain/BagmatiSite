@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="gtco-section" style="margin-top:30px;">
+    <div class="gtco-container">
+        <div class="row gtco-heading">
+            <div class="col-md-7 text-left" style="font-family:montserrat;">
+                <h2>Contact</h2>
+                <p>We love to hear from our customers. Please send us your messages through our contact form.</p>
+            </div>
+            <div class="col-md-3 col-md-push-2 text-center">
+                <p class="mt-md"><a href="@Url.Action("Contact","Home",null)" class="btn btn-special btn-block" >Contact us</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="#">
+                    <div class="form-group formenq">
+                        <label for="name" style="font-family:montserrat;">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name" style="font-family:montserrat;">Email</label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message"></label>
+                        <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn btn-special style="font-family:montserrat;"" value="Send Message">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-5 col-md-push-1">
+                <div class="gtco-contact-info" style="font-family:montserrat;">
+                    <h3>Our Address</h3>
+                    <p>We would love to welcome you to our office located in the center of Kathmandu.</p>
+                    <ul>
+                        <li class="address">Four Square Building Narayanchour, Naxal, Kathmandu, Nepal</li>
+                        <li class="phone"><a>+977-9801121153</a></li>
+                        <li class="url"><a href="#">bagmatiplastic@gmail.com</a></li>
+                        <li class="email"><a href="#">pankajrathi13@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contmap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14128.3149648532!2d85.324928!3d27.714855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d498d67766d320a!2sNarayan%20Chaur!5e0!3m2!1sen!2sus!4v1601883887140!5m2!1sen!2sus" width="1300" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+
+
